@@ -11,7 +11,19 @@ $ go get github.com/miku/dconv/...
 First use case, a bit more human editable JSON.
 
 ```yaml
-$ curl -sL https://git.io/JkOEo | dconv -y
+$ echo '{"a": ["b", "c"], "d": {"e": [1, 2, 3], "f": "g", "h": "i"}}' | dcast -y
+a:
+- b
+- c
+d:
+  e:
+  - 1
+  - 2
+  - 3
+  f: g
+  h: i
+
+$ curl -sL fixtures/doc.json | dconv -y
 abstracts:
 - content: Belgium Herbarium image of Meise Botanic Garden.
   lang: de
