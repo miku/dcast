@@ -5,6 +5,7 @@ BUILDTIME := $(shell date -u '+%Y-%m-%dT%H:%M:%SZ')
 
 GOLDFLAGS += -X main.Version=$(VERSION)
 GOLDFLAGS += -X main.Buildtime=$(BUILDTIME)
+GOLDFLAGS += -s -w
 GOFLAGS = -ldflags "$(GOLDFLAGS)"
 
 .PHONY: all
