@@ -1,2 +1,9 @@
 # dconv
-A data conversion utility
+
+Data conversions.
+
+## Convert JSON to YAML
+
+```
+$ dconv -y ...
+```
