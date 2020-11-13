@@ -1,6 +1,10 @@
 # dconv
 
-Data conversions.
+Format conversions.
+
+```shell
+$ go get github.com/miku/dconv/...
+```
 
 ## Convert JSON to YAML
 
