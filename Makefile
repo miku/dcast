@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-TARGETS := dconv
+TARGETS := dcast
 VERSION := $(shell git rev-parse --short HEAD)
 BUILDTIME := $(shell date -u '+%Y-%m-%dT%H:%M:%SZ')
 
