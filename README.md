@@ -1,4 +1,4 @@
-# dconv
+# dcast (data cast)
 
 Format conversions.
 
